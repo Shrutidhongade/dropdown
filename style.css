@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(image/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} 
+.logo{
+     position: relative;
+     top: 20px;
+     left: 30px;
+     margin: 0px;
+} 
+.container{
+    background-color:aqua;
+    width: 100%;
+    
+    
+}
+.main{
+    text-align: center;
+   
+}
+.main ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    position: relative;
+    bottom: 15px;
+
+    
+}
+.main ul li{
+    padding: 15px;
+    
+    
+}
+.main ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+    
+}
+.main ul li:hover{
+    background-color: brown;
+    border-radius: 3px;
+}
+.main .fa{
+    margin-right: 8px;
+}
+.dropdown{
+    display: none;
+}
+.main ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.main ul li:hover .dropdown ul{
+    display: block;
+    margin:5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .main ul li{
+    position: relative;
+    bottom:20px;
+    left: 300px;
+   
+}
+.main ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding:0px 25px 0px 25px;
+}
+.main ul li a:hover{
+    background-color: brown;
+
+} */
